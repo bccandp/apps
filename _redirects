@@ -1,4 +1,4 @@
 # Redirects from what the browser requests to what we serve
-/    /qbcalc.html    301!
-/index.html    /qbcalc.html    301!
-/home.html    /qbcalc.html    301!
+/    /qbcalc    301!
+/index.html    /qbcalc    301!
+/home.html    /qbcalc    301!
