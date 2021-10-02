@@ -123,6 +123,16 @@ nav {
   text-decoration: underline;
 }
 
+.backLink {
+  width: 100%;
+  padding: 25px;
+}
+
+.backLink a {
+  padding: 0px 40px;
+  color: #894fab;
+}
+
 .calcWrapper {
   display: flex;
   flex-direction: column;
@@ -155,7 +165,7 @@ nav {
 
 iframe .radar {
   width: 95% !important;
-  padding: 10px !important;
+  padding: 20px 10px !important;
 }
 
 section h1 {
