@@ -141,6 +141,23 @@ nav {
 .qbcalcForm {
 }
 
+.weatherWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weatherwidget-io {
+  width: 95%;
+  margin: 10px !important;
+}
+
+iframe .radar {
+  width: 95% !important;
+  padding: 10px !important;
+}
+
 section h1 {
   font-size: 36px;
 }

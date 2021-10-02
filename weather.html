@@ -38,7 +38,27 @@
 </div>
 </nav>
 
+<section class="weatherWrapper">
+    <a class="weatherwidget-io" href="https://forecast7.com/en/40d42n86d88/lafayette/?unit=us" data-label_1="LAFAYETTE" data-label_2="Indiana" data-font="Open Sans" data-icons="Climacons Animated" data-mode="Current" data-theme="weather_one" >LAFAYETTE Indiana</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
 
+<iframe id="radar" src="https://www.rainviewer.com/map.html?loc=40.4203,-86.8758,12&oFa=0&oC=0&oU=0&oCS=1&oF=1&oAP=0&rmt=4&c=1&o=83&lm=0&th=0&sm=1&sn=1" width="90%" frameborder="0" style="border:0;height:95vh;" allowfullscreen></iframe>
+
+<script>
+var iframe = document.getElementById("radar");
+var menuBar = iframe.contentWindow.document.getElementById("menu-bar");
+var appIcon = iframe.contentWindow.document.getElementById("app-icon");
+menuBar.style.background-color = "rgba(255,255,255,0.5)";
+appIcon.style.display = "none";
+</script>
+
+<a class="weatherwidget-io" href="https://forecast7.com/en/40d42n86d88/lafayette/?unit=us" data-label_1="LAFAYETTE" data-label_2="Indiana" data-font="Open Sans" data-icons="Climacons Animated" data-mode="Forecast" data-theme="weather_one" >LAFAYETTE Indiana</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+</section>
 
 <footer class="footer">
     <p class="copyright-text">©2021 BCC&P DOT | <a href="/qbcalc" class="calc">QBCalc</a> <a href="/weather" class="weather">Weather</a> <a href="https://help.bccandp.org" class="help">Help</a> <a href="https://status.bccandp.org" class="status" target="_blank">Status</a> <a href="https://www.bccandp.org/privacy" class="privacy" target="_blank">Privacy Policy</a></p>
