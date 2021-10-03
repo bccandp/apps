@@ -163,6 +163,8 @@ nav {
 .weatherwidget-io {
   width: 95%;
   margin: 20px !important;
+  pointer-events: none;
+  cursor: default;
 }
 
 #radar {
