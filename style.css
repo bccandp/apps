@@ -167,6 +167,19 @@ nav {
   cursor: default;
 }
 
+.indotCams {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.cams {
+  height: clamp(150px, 3em, 300px);
+  width: auto;
+}
+
 #radar {
   width: 95% !important;
   height: 60vh !important;
