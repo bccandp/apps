@@ -169,15 +169,15 @@ nav {
 
 .indotCams {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 0px;
+  padding: 10px 20px;
 }
 
 .cam {
-  height: clamp(150px, 3em, 300px);
-  width: auto;
+  width: clamp(40%, 500px, 90%);
+  height: auto;
+  margin: 6px;
 }
 
 #radar {
