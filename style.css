@@ -175,7 +175,7 @@ nav {
 }
 
 .cam {
-  width: clamp(40%, 500px, 90%);
+  width: 48%;
   height: auto;
   margin: 6px;
 }
@@ -454,6 +454,10 @@ section h1 {
 
   .indotCams {
     flex-direction: column;
+  }
+
+  .cam {
+    width: 85%;
   }
 
   .btn-section {
