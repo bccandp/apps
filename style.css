@@ -167,7 +167,20 @@ nav {
   cursor: default;
 }
 
-.indotCams {
+.camTitle {
+  padding: 10px 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.shield65 {
+  width: 50px;
+  height: auto;
+  margin: 10px;
+}
+
+.camBox {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -452,7 +465,7 @@ section h1 {
     transform: translateY(20px);
   }
 
-  .indotCams {
+  .camBox {
     flex-direction: column;
   }
 
